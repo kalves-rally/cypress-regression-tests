@@ -19,6 +19,6 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 Cypress.Cookies.defaults({
-    whitelist:["ZSESSIONID", "SUBSCRIPTIONID", "RALLY-Detail-treeCollapsed"]
+    whitelist:["JSESSION" ,"ZSESSIONID", "SUBSCRIPTIONID", "RALLY-Detail-treeCollapsed"]
                
   })
